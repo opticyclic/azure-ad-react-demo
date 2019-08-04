@@ -2,6 +2,10 @@
 
 This demo starts with `create-react-app` and adds authentication to it using Azure Active Directory.
 
+The [react-adal](https://github.com/salvoravida/react-adal) library is used to authenticate and the login page is automatically provided by Active Directory.
+
+Obviously, since we are using Azure AD you need to have an Azure account to test this out. 
+
 The login is token based using JWT which means the flow for a request is several steps:
 
 ![](javascriptspa-intro.svg)
