@@ -34,6 +34,11 @@ If you don't tick ID Tokens after creating the registration you will get the fol
 
     'AADSTS700054: response_type 'id_token' is not enabled for the application.
 
+If you forget to add the redirect URI in the portal you will get the following error:
+
+    AADSTS500113: No reply address is registered for the application. 
+
+
 If the redirect URI you put in the portal doesn't match what you have in the config you will get the following error:
 
     AADSTS50011: The reply url specified in the request does not match the reply urls configured for the application: '<app-id>'. 
