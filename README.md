@@ -16,6 +16,8 @@ Click on "New registration
 * Add redirect URI (http://localhost:3000 for this demo)
 * Register
 
+**NOTE:** It is possible to put another redirect URIs in _after_ you have registered. This allows you to have localhost for development and also the host of your deployed code at the same time. 
+
 After the app is created go to Authentication
 * Tick Access Tokens
 * Tick ID Tokens
